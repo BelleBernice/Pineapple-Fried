@@ -12,7 +12,7 @@
   <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried">What is Pinneapple Fried?</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#features-included">Features Included</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#installation">Installation</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#faq">FAQ</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#acknowledgements">Acknowledgements</a>
 </p>
 
-[https://github.com/user-attachments/assets/d9d5a14f-9272-4039-a89e-4be91c394565](https://github.com/user-attachments/assets/ce1b3dd7-1a01-42d3-b259-a8545e0a39d9)
+https://github.com/user-attachments/assets/ce6c3103-6adb-4190-86f6-8be656070632
 
 ## What is Pineapple Fried?
 Pineapple Fried is a pack of customizations (a 'rice') made for [Zen Browser](https://zen-browser.app).
@@ -27,8 +27,8 @@ Pineapple Fried has been tested on these versions of Zen:
 
 | Build | Version | Date |
 | ------ | ------ | ------|
-| **Beta** | `1.0.2-b.5` | Dec. 26, 2024 |
-| **Twilight** | `1.6t` | Jan. 05, 2025 |
+| **Beta** | `1.7.2b` | Jan. 21, 2025 |
+| **Twilight** | `1.7.2t` | Jan. 27, 2025 |
 
 </div>
 
@@ -128,7 +128,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
 
-### **a):** Zen Options
+### **a):** Zen options
 - `browser.tabs.allow_transparent_browser` = `true`*
 - `zen.workspaces.show-workspace-indicator` = `false`
   
@@ -144,6 +144,12 @@ These are the configs you need to use. If they do not exist, type the config and
 - `natsumi.sidebar.enable-tab-groups`: `true`*
 - `natsumi.sidebar.zen-sidebar-glass-effect`: `true`
 
+### Pineapple Fried options
+- `pf.use.natsumi-tweaks` Set to `true` to enable Natsumi compatibility
+- `pf.nt.no-container-gradient` Set to `true` to remove the Contaier Gradient from Natsumi
+- `pf.use.zen-menu-button` Set to `true` to replace the menu button with the Zen logo
+- `pf.use.window-buttons` Autohide the Min Max and Close buttons for Multitoolbar mode
+  
 <br>
 
 ## 4. Zen Settings
@@ -170,9 +176,24 @@ These are the configs you need to use. If they do not exist, type the config and
 - Right click on the Tab Bar and select 'Customize Toolbar'
 - Click and drag items to arrange them in this same order:
 
-![image](https://github.com/user-attachments/assets/bf7919db-9e69-4aa5-8bfb-2a21d8da7813)
+### Multi Toolbar Mode
+![image](https://github.com/user-attachments/assets/95f1324d-f5fb-4e43-97bd-34c5039d6195)
 
-`Account` | `Bookmark toolbar items` | `4x Spacers` | `Nav buttons` | `URL Bar` | `Copy URL button` | `4x Spacers`
+
+`Account` | `Bookmark toolbar items` | `Nav buttons` | `4x Spacers` | `URL Bar` | `4x Spacers`
+
+### Single Toolbar Mode
+![image](https://github.com/user-attachments/assets/58f7d0bb-48b4-46ec-b84c-6b2573ed2898)
+
+`Nav Buttons` | `Account` | `URL Bar`
+
+*_Bookmark Toolbar Items go back into the normal Bookmark Bar_
+
+#### Will look like this:
+![image](https://github.com/user-attachments/assets/4e43e537-3767-4aa2-9dbb-79a3451d4f82)
+
+
+
 
 <br>
 
@@ -189,15 +210,13 @@ These are the configs you need to use. If they do not exist, type the config and
 * [SuperPins](https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc)
 
   **SuperPins Settings:**
-  * [x] Makes pinned tabs look similar to Essentials (icon only in a grid)
-  * [x] Adds a background to the pinned tabs
-  * Select the gap between Essentials: ```Normal```
+![image](https://github.com/user-attachments/assets/0cb3b1ce-8764-445d-bbac-2b7b7c46a034)
+
 * [Super URL Bar](https://zen-browser.app/mods/d93e67f8-e5e1-401e-9b82-f9d5bab231e6)
 
   **Super URL Bar Settings:**
-  * Centeres the text inside the URL Bar: ```Always Centered```
-  * Enable a background blur when the URL bar is focused & select its intensity: ```Really Strong```
-  * [x] Always open websites in a new tab when using url bar
+![image](https://github.com/user-attachments/assets/352eadcc-8296-45d1-9124-c06ae2e11ad4)
+
 
 <br>
 
@@ -238,6 +257,10 @@ If you like the colors you see in the screenshots above, you can manually copy t
 
 To edit gradient, right click Tab Bar and select `Change Theme Color`.
 
+![image](https://github.com/user-attachments/assets/920449ce-2102-4fd4-8cf4-086d4d2fc341)
+
+![image](https://github.com/user-attachments/assets/0761367b-383a-4353-9ff9-836320de3a4a)
+
 ![image](https://github.com/user-attachments/assets/fb165906-7601-4421-8a52-40b8dc3441e9)
 
 ![image](https://github.com/user-attachments/assets/db37488d-a723-41d2-9ff2-ff7e21459608)
@@ -268,7 +291,7 @@ instead of being the file that contains all rules. This way, it's easier for use
 disable custom CSS. This system is reffered to as **uCL** (**u**ser**C**hrome **L**oader).
 
 # Troubleshooting
-### "I don't see any of the Natsumi options in about:config!"
+### "I don't see any of the Pineapple Fried / Natsumi options in about:config!"
 These are custom options which you need to create. Type in the exact name, then press the plus button on
 the right to create the config.
 
