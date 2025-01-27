@@ -243,7 +243,7 @@ These are the configs you need to use. If they do not exist, type the config and
   - Extend Frame Into Client Area: `Off`
   - Blur Behind: `On`
 
-### Alternitives
+### Alternatives
 
 | OS | Link |
 | --- | --- |
