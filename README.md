@@ -134,7 +134,6 @@ These are the configs you need to use. If they do not exist, type the config and
 
 ### **a):** Zen options
 - `browser.tabs.allow_transparent_browser` = `true`*
-- `zen.workspaces.show-workspace-indicator` = `false`
   
 >[!Note]
 >**Websites without a background will display the browser UI underneath the content.*
