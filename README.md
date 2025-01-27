@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="120" height="120" src="https://github.com/user-attachments/assets/722fbde9-1fab-401f-afa2-899d6546bdda">
+  <img width="120" height="120" src="https://github.com/user-attachments/assets/9af639b2-c553-43c8-ba07-d6c0f7f4fefa">
   <br>
   Pineapple Fried
 </h1>
