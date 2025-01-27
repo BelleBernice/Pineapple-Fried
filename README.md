@@ -1,9 +1,8 @@
 <h1 align="center">
-  <img width="120" height="120" src="https://github.com/user-attachments/assets/9af639b2-c553-43c8-ba07-d6c0f7f4fefa">
+  <img width="120" height="120" src="https://github.com/user-attachments/assets/722fbde9-1fab-401f-afa2-899d6546bdda">
   <br>
   Pineapple Fried
 </h1>
-
 
 <p align="center">
   A customization pack for Zen Browser
@@ -13,7 +12,7 @@
   <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried">What is Pinneapple Fried?</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#features-included">Features Included</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#installation">Installation</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#faq">FAQ</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#acknowledgements">Acknowledgements</a>
 </p>
 
-https://github.com/user-attachments/assets/d9d5a14f-9272-4039-a89e-4be91c394565
+[https://github.com/user-attachments/assets/d9d5a14f-9272-4039-a89e-4be91c394565](https://github.com/user-attachments/assets/ce1b3dd7-1a01-42d3-b259-a8545e0a39d9)
 
 ## What is Pineapple Fried?
 Pineapple Fried is a pack of customizations (a 'rice') made for [Zen Browser](https://zen-browser.app).
