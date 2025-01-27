@@ -1,6 +1,6 @@
 /* Base sidebar styling */
 #sidebar-box {
-  background-color: rgba(0, 0, 0, .2) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
   border: none !important;
   box-shadow: none !important;
 }
@@ -54,7 +54,7 @@
 
 /* Bookmark toolbar */
 #PersonalToolbar:not([collapsed="true"]) {
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0) !important;
 }
 
 /* Findbar */
