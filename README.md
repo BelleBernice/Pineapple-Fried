@@ -5,6 +5,10 @@
 </h1>
 
 <p align="center">
+  <a href="https://zen-browser.app"><img height="40" src="https://github.com/heyitszenithyt/zen-browser-badges/blob/fb14dcd72694b7176d141c774629df76af87514e/light/zen-badge-light.png"></a>
+</p>
+
+<p align="center">
   A customization pack for Zen Browser
   <br>
   Cohesion + Natsumi-Tweaks + Wazz-Tweaks
