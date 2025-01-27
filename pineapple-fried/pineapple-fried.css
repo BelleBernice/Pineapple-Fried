@@ -1,3 +1,5 @@
-@import "cohesion/cohesion.css";
 @import "natsumi-tweaks/natsumi-tweaks.css";
+
+@import "cohesion/cohesion.css";
+
 @import "wazz-tweaks/wazz-tweaks.css";
