@@ -1,0 +1,10 @@
+{
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/bento.yml"
+    ],
+    "cSpell.words": [
+        "bento",
+        "Bento",
+        "zenbento"
+    ]
+}
