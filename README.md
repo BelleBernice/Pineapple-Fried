@@ -11,7 +11,7 @@
 <p align="center">
   A customization pack for Zen Browser
   <br>
-  Cohesion + Natsumi-Tweaks + Wazz-Tweaks
+  Cohesion + Wazz-Tweaks
   <br>
   <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried">What is Pinneapple Fried?</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#features-included">Features Included</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#installation">Installation</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#faq">FAQ</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#acknowledgements">Acknowledgements</a>
 </p>
@@ -21,18 +21,16 @@ https://github.com/user-attachments/assets/ce6c3103-6adb-4190-86f6-8be656070632
 ## What is Pineapple Fried?
 Pineapple Fried is a pack of customizations (a 'rice') made for [Zen Browser](https://zen-browser.app).
 
-It integrates new UI styles, personal tweaks, and a compatibility layer for [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main)
+It integrates new UI styles and personal tweaks.
+
+> [!Note]
+> As of Pineapple Fried **v2.1.0**:
+> 
+> Natsumi-Tweaks (the compatibility layer that added support for some tweaked Natsumi styles and animations) has been removed. 
+>
+> You're welcome to iterate on the last version of natsumi-tweaks from PF v2.0.0 to add compatibility for Natsumi, but I will not be continuing to update it. 
 
 <br>
-
-<div align="center">
-
-Pineapple Fried has been tested on these versions of Zen:
-
-| Build | Version | Date |
-| ------ | ------ | ------|
-| **Beta** | `1.7.2b` | Jan. 21, 2025 |
-| **Twilight** | `1.7.2t` | Jan. 27, 2025 |
 
 </div>
 
@@ -47,20 +45,6 @@ Pineapple Fried has been tested on these versions of Zen:
 Cohesion adds an integrated URL style, transparent newtab pages, and a *cohesive* transparent look to the various bars and panels
 
 https://github.com/user-attachments/assets/2bf31d3a-18e0-4405-9389-8d0f036127a4
-
-<br>
-
-<h3 align="left">
-  <img width="80" height="80" src="https://github.com/user-attachments/assets/a44b390d-4c25-474a-af08-434d81cd34dc">
-  <br>
-  Natsumi-Tweaks
-</h3>
-
-Get the stylish appearance, animations, and features of [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main), made compatible with Cohesion with some personal tweaks. 
-
-**This is a compatibility layer. It requires Natsumi to already be installed.*
-
-![image](https://github.com/user-attachments/assets/dad73ffd-36c0-4fe5-ad86-db207d900bf5)
 
 <br>
 
@@ -93,8 +77,6 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 #
 
-*The following guide assumes Natsumi Browser is already installed.*
-
 <br>
 
 ## 1. userChrome.css
@@ -108,9 +90,6 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 @import "pineapple-fried/pineapple-fried.css";
 ```
 > [!Note]
-> - Make sure regular Natsumi is imported above Pineapple Fried
-> - Remove any of my personal CSS / Cohesion CSS from your **userChrome.css** file ***if you have previously used it.***
-> - It's now all being called via the import statements in your **userChrome.css** file.
 > - You may still add other custom CSS to your userChrome.css underneath the imports.
 > - You can Live Edit mod files, just search for the Module name in the Style Browser (Ctrl+Alt+Shift+I)
 
@@ -132,7 +111,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
 
-### **a):** Zen options
+### Zen options
 - `browser.tabs.allow_transparent_browser` = `true`*
   
 >[!Note]
@@ -140,16 +119,7 @@ These are the configs you need to use. If they do not exist, type the config and
 >
 >*Extensions like [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) fix this by setting their own background.*
 
-### **b):** Natsumi options
-- `natsumi.theme.clip-path-force-polygon`: `true`
-- `natsumi.sidebar.blur-zen-sidebar`: `true`
-- `natsumi.sidebar.containers-no-inactive-border`: `true`
-- `natsumi.sidebar.enable-tab-groups`: `true`*
-- `natsumi.sidebar.zen-sidebar-glass-effect`: `true`
-
 ### Pineapple Fried options
-- `pf.use.natsumi-tweaks` Set to `true` to enable Natsumi compatibility
-- `pf.nt.no-container-gradient` Set to `true` to remove the Contaier Gradient from Natsumi
 - `pf.use.zen-menu-button` Set to `true` to replace the menu button with the Zen logo
 - `pf.use.window-buttons` Autohide the Min Max and Close buttons for Multitoolbar mode
   
@@ -165,8 +135,6 @@ These are the configs you need to use. If they do not exist, type the config and
     
 **b):** Tab Management
   - Check '__Hide the default container indicator in the tab bar__'
-  - Check '__Allow workspaces have their own pinned tabs__'
-  - Check '__Display workspaces as an icon strip__'
     
 **c):** Home 
   - Homepage and new windows: Firefox Home (default)
@@ -203,22 +171,18 @@ These are the configs you need to use. If they do not exist, type the config and
 ## 6. Mods
 
 * [Bottom Essentials](https://zen-browser.app/mods/477bc813-c333-4747-813e-00e0420ceec0)
-* [Better Unloaded Tabs](https://zen-browser.app/mods/f7c71d9a-bce2-420f-ae44-a64bd92975ab)
+* [Zen Colored Picker](https://zen-browser.app/mods/03a8e7ef-cf00-4f41-bf24-a90deeafc9db/)
+* [Bleeding Corners Fix](https://zen-browser.app/mods/7d577b21-4685-4db2-bb17-d39d08eec199/)
 * [Cleaner Extension Menu](https://zen-browser.app/mods/1e86cf37-a127-4f24-b919-d265b5ce29a0)
 * [Cleaned URL Bar](https://zen-browser.app/mods/a5f6a231-e3c8-4ce8-8a8e-3e93efd6adec)
 * [Floating Status Bar](https://zen-browser.app/mods/906c6915-5677-48ff-9bfc-096a02a72379)
 * [Hide Extension Name](https://zen-browser.app/mods/cb15abdb-0514-4e09-8ce5-722cf1f4a20f)
-* [Midnight](https://zen-browser.app/mods/5ca67725-1f43-4ff2-9fcf-0c59af71c73a)
+* [Fluid URL](https://zen-browser.app/mods/cfa711cf-e9f7-4c35-8289-3e7633f93565/)
 * [Only Close On Hover](https://zen-browser.app/mods/4596d8f9-f0b7-4aeb-aa92-851222dc1888)
 * [SuperPins](https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc)
 
   **SuperPins Settings:**
-![image](https://github.com/user-attachments/assets/0cb3b1ce-8764-445d-bbac-2b7b7c46a034)
-
-* [Super URL Bar](https://zen-browser.app/mods/d93e67f8-e5e1-401e-9b82-f9d5bab231e6)
-
-  **Super URL Bar Settings:**
-![image](https://github.com/user-attachments/assets/352eadcc-8296-45d1-9124-c06ae2e11ad4)
+![image](https://github.com/user-attachments/assets/4fa1e03d-0ba2-455d-b69d-f63bd9c50f6f)
 
 
 <br>
@@ -247,7 +211,7 @@ These are the configs you need to use. If they do not exist, type the config and
 | OS | Link |
 | --- | --- |
 | Windows 10 | [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) |
-| MacOS | Set Gradient Contrast to 0 to enable transparency |
+| MacOS | Adjust Contrast to change transparency |
 | Linux | |
 | - KDE | [KWin Better Blur](https://github.com/taj-ny/kwin-effects-forceblur) |
 | - Gnome | [Blur My Shell](https://github.com/aunetx/blur-my-shell) |
@@ -294,16 +258,9 @@ instead of being the file that contains all rules. This way, it's easier for use
 disable custom CSS. This system is reffered to as **uCL** (**u**ser**C**hrome **L**oader).
 
 # Troubleshooting
-### "I don't see any of the Pineapple Fried / Natsumi options in about:config!"
+### "I don't see any of the Pineapple Fried in about:config!"
 These are custom options which you need to create. Type in the exact name, then press the plus button on
 the right to create the config.
-
-### "Tab groups aren't working!"
-> [!WARNING]
-> The developer of Zen Browser recommends **against** using custom CSS to implement Tab Groups like
-> Natsumi's for the time being. Proceed at your own risk.
-
-Set `browser.tabs.groups.enabled` and `natsumi.sidebar.enable-tab-groups` to true.
 
 ### "Something's bugged!"
 There may be Zen Mods or userchromes that you're using alongside Pineapple Fried that breaks things.
